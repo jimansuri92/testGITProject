@@ -14,7 +14,7 @@ public class testGIT {
 	 @BeforeClass
 	  public void beforeClass() {
 	   
-	   //System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\Drivers\\geckodriver.exe");
+	   System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		 
 	   //driver = new FirefoxDriver();
 		 driver = new ChromeDriver();

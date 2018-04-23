@@ -16,7 +16,8 @@ public class testGIT {
 	   
 	   //System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\Drivers\\geckodriver.exe");
 		 
-	   driver = new FirefoxDriver();
+	   //driver = new FirefoxDriver();
+		 driver = new ChromeDriver();
 	   
 	  }
 	  @Test

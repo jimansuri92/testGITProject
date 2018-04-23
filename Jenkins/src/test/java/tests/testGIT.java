@@ -11,18 +11,20 @@ public class testGIT {
 	
 	 public WebDriver driver;
 	 
+	 @BeforeClass
+	  public void beforeClass() {
+	   
+	   //System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\Drivers\\geckodriver.exe");
+		 
+	   driver = new FirefoxDriver();
+	   
+	  }
 	  @Test
 	  public void openMyBlog() {
 	 driver.get("https://www.softwaretestingmaterial.com/");
 	  }
 	  
-	  @BeforeClass
-	  public void beforeClass() {
-	   
-	   //System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\Drivers\\geckodriver.exe");
-	   driver = new ChromeDriver();
-	   
-	  }
+	  
 	 
 	  @AfterClass
 	  public void afterClass() {

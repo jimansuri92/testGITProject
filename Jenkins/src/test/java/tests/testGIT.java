@@ -18,7 +18,7 @@ public class testGIT {
 		 
 	   //driver = new FirefoxDriver();
 		 driver = new ChromeDriver();
-		 //Test Pushed fkjdsgfksfkjhsdkjfgdsjk kgfjksdgfskjgfksjdgfjksdgf
+		 //Test Pushed fkjdsgfksfkjhsdkjfgdsjk kgfjksdgfskjg
 	   
 	  }
 	  @Test
